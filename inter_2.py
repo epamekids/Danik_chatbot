@@ -10,24 +10,24 @@ while i < 20:
 	if v == 'gr':
 		if s == 0:
 			gr.append(z)
-			print(z)
+			print("Hello you too!")
 		elif s > 0:
 			if z in gr:
-				print(z, "you have already wrote this")
+				print("Hello you too!", "you have already wrote this")
 			else:
 				gr.append(z)
-				print(z)
+				print("Hello you too!")
 		s+=1
 	elif v == 'par':
 		if d == 0:
 			par.append(z)
-			print(z)
+			print("Goodbye my friend")
 		elif d > 0 :
 			if z in par:
-				print(z, "you have already wrote this")
+				print("Goodbye my friend", "you have already wrote this")
 			else:
 				par.append(z)
-				print(z)
+				print("Goodbye my friend")
 		d+=1
 	else:
 		print("I'm buzy right now, let's talk another time")
